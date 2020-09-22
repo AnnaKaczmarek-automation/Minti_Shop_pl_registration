@@ -1,0 +1,25 @@
+from selenium.webdriver.common.by import By
+
+class registranion_buttons():
+    pop_up_denie_btn = (By.ID,"smwpRejectionButton")
+    cookies_btn = (By.XPATH,'//i[@class="fa fa-close"]')
+    login_btn = (By.XPATH, '//a[@class="account_link link hidden-phone"]')
+    facebook_btn = (By.XPATH,'//a[@href="https://accounts.idosell.com/facebook/5c070c9f282c07baf89f2da82b1070b0116ed683/aHR0cHM6Ly9taW50aXNob3AucGwvY2xpZW50LW5ldy5waHA="]')
+    create_new_account_btn = (By.XPATH,'//a[@href="/client-new.php?register"][@class="btn signin-form_register2"]')
+    private_person = (By.XPATH,'//input[@name="client_type"]')
+    first_name = (By.ID, "client_firstname")
+    last_name = (By.ID, "client_lastname")
+    street_and_number= (By.ID, "client_street")
+    zipcode = (By.ID,"client_zipcode")
+    city = (By.ID,"client_city")
+    country = (By.ID,"client_region")
+    poland = (By.XPATH,'//option[@value="1143020003"]')
+    phone_number = (By.ID, "client_phone")
+    e_mail = (By.ID, "client_email")
+    terms_agreement_btn = (By.XPATH,'//input[@id="terms_agree"]')
+    terms_agreement_btn = (By.XPATH, '//input[@id="terms_agree"]')
+    login2_btn = (By.ID,"client_login")
+    password = (By.ID, "client_password")
+    repeated_password = (By.ID, "repeat_password")
+    create_account_btn = (By.ID, 'submit_clientnew_form')
+
