@@ -22,4 +22,3 @@ class registranion_buttons():
     password = (By.ID, "client_password")
     repeated_password = (By.ID, "repeat_password")
     create_account_btn = (By.ID, 'submit_clientnew_form')
-

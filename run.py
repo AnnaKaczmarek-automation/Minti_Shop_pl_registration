@@ -1,5 +1,6 @@
 import unittest
 from tests.registration_test import Test_registration
+import selenium
 
 
 

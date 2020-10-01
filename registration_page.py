@@ -70,7 +70,7 @@ class Registration_protocole(BasePage):
         self.driver.find_element(*registranion_buttons.e_mail).send_keys("aleksandra22@gmail.com")
 
         # poszukaj jakos css selector. chodzi o ::before
-        self.driver.find_element(*registranion_buttons.terms_agreement_btn).click()
+        self.driver.find_element_by_css_selector('label[class="has-required"]').click()
 
 
         self.driver.find_element(*registranion_buttons.login2_btn).send_keys("Olka007")
@@ -80,4 +80,3 @@ class Registration_protocole(BasePage):
 
     def create_account(self):
         self.driver.find_element(*registranion_buttons.create_account_btn).click()
-
